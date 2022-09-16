@@ -1,2 +1,2 @@
-# Gerenciador de tarefas 
- Primeiro projeto no git
+# Gerenciador de tarefas tarefoso
+ Primeiro projeto no git e github, projeto usando html, css e php!
