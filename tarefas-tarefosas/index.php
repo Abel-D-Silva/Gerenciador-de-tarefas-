@@ -34,9 +34,9 @@
        <div class = "separator">
        </div>
        <div class = "list-tasks">
-       </div >
+       </div>
                  <li> Tarefa 1 </li>
-                 <li> Tarefa 1 </11>
+                 <li> Tarefa 1 </1i>
                  <li> Tarefa 1 </li>
             </ul>
      </div>
