@@ -1,6 +1,19 @@
+<?php
+session_start();
+
+if ( !isset($_SESSION['tasks']) ) {
+     $_SESSION['tasks'] = array();
+}
+
+if ( isset($_GET['task_name']) ) {
+     array_push($_SESSION['tasks'], $_GET['task_name']);
+     unset($_GET['task_name']);
+}
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
-  
 <head>
 
   <meta charset="UTF-8">
@@ -37,6 +50,17 @@
        <div class = "separator">
        </div>
        <div class = "list-tasks">
+       <?php
+    if ( isset($_SESSION['tasks']) ) {
+         echo "<ul>";
+    
+         foreach ($_SESSION['tasks'] as $key => $task ) {
+              echo "<li>$task</li>";
+         }
+         echo "</ul>";
+        }
+         ?>
+
        </div>
                  <li class="lista"> Tarefa 1 </li>
                  <li class="lista"> Tarefa 1 </li>
