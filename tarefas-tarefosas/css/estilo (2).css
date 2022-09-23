@@ -1,0 +1,79 @@
+body {
+    background-image : url('../imagens/mountain-japanese.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lista {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  background: #6c5570;
+  height: 54px;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 12px;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  transition: background 0.4s;
+}
+
+.lista:hover {
+  background: rgb(73, 56, 83);
+}
+
+
+.lista1 {
+  color:  red;
+}
+
+
+.form form {
+  display : flex ;
+  justify - content : center ;
+  flex - direction : column ;
+}
+
+.form label {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.form input {
+  height: 32px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 12px;
+  border: 1px solid red;
+}
+
+.form button {
+  background: #b364a5;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  transition: background 0.4s;
+  position: absolute;
+  left: 25px;
+  top: 95px;
+  }
+
+.form button:hover {
+  background: #da4c6f;
+}
+
+.list-tasks {
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+}
+
+.list-tasks ul {
+  list-style: none;
+}
